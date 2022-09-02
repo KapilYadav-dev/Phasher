@@ -48,6 +48,9 @@ val scoreTwo = Phash(uri1,uri2,context).getSimilarityScore()
 // score = 70%
 ```
 
+### Results
+![alt-text-1](https://raw.githubusercontent.com/KapilYadav-dev/Phasher/main/img2.jpeg "title-1") ![alt-text-2](https://raw.githubusercontent.com/KapilYadav-dev/Phasher/main/img2.jpeg "title-2")
+
 ## ✍️ Author
 
 👤 **mrkaydev**
