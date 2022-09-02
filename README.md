@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-	implementation 'com.github.KapilYadav-dev:Phasher:Tag'
+  implementation 'com.github.KapilYadav-dev:Phasher:Tag'
 }
 
 ```
@@ -36,7 +36,7 @@ fun Phash(
 fun Phash(
     uriOne: Uri?, // Uri for Image one
     uriTwo: Uri?, // Uri for Image two
-    context: Context 
+    context: Context
 )
 ```
 #### Finally use ```kotlin.getSimilarityScore()``` method which will return % of confidence.
@@ -48,9 +48,15 @@ val scoreTwo = Phash(uri1,uri2,context).getSimilarityScore()
 // score = 70%
 ```
 
-### Results
-![alt-text-1](https://raw.githubusercontent.com/KapilYadav-dev/Phasher/main/img2.jpeg "title-1") ![alt-text-2](https://raw.githubusercontent.com/KapilYadav-dev/Phasher/main/img2.jpeg "title-2")
+## Results
+| Image 1 | Image 2 |
+| :---: | :---: |
+| <img src="/img1.jpeg" width="200"/> | <img src="/img2.jpeg" width="200" /> |
+## Result 89 % match ✅
 
+## Important Note ✍️
+Choose your threasold for your image as per your usecase. <br>
+For a standard one, we use 75 % threasold that mean's above its image are similar.
 ## ✍️ Author
 
 👤 **mrkaydev**
