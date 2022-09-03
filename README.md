@@ -1,9 +1,5 @@
 # Phasher ✅
 
-![buildStatus](https://img.shields.io/github/workflow/status/theapache64/twyper/Java%20CI%20with%20Gradle?style=plastic)
-![latestVersion](https://img.shields.io/github/v/release/KapilYadav-dev/ComposeIntro)
-
-
 > So, around a week ago I was struggling to compare similarities between two images and found a way i.e Phash (perceptual hash) algorithm. It's based upon https://www.phash.org/.❤️
 
 ## ⌨️ Usage
@@ -56,7 +52,7 @@ val scoreTwo = Phash(uri1,uri2,context).getSimilarityScore()
 
 ## Important Note ✍️
 Choose your threasold for your image as per your usecase. <br>
-For a standard one, we use 75 % threasold that mean's above its image are similar.
+For a standard one, we use 75 % threasold that means above its image are similar.
 ## ✍️ Author
 
 👤 **mrkaydev**
