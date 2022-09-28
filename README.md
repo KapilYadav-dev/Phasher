@@ -35,7 +35,7 @@ fun Phash(
     context: Context
 )
 ```
-#### Finally use ```kotlin.getSimilarityScore()``` method which will return % of confidence.
+#### Finally use ```getSimilarityScore()``` method which will return % of confidence.
 #### i.e.
 ```kotlin
 val score = Phash(path1,path2).getSimilarityScore()
